@@ -58,3 +58,8 @@ $tar -xvf user_dir.tar
 ### Step 7: Your site should work!
 - clean up by deleting any downloaded archived zips or tar files (don't just leave these on your server)
 
+## Enable Automatic Updates
+- in `wp-config.php` add the following:
+```
+define( ‘WP_AUTO_UPDATE_CORE’, true );
+```
